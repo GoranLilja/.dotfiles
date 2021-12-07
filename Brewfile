@@ -1,15 +1,35 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
-# Modern replacement for 'ls'
-brew "exa"
-# Distributed revision control system
-brew "git"
-# UNIX shell (command interpreter)
-brew "zsh"
-cask "alfred"
-cask "dropbox"
-cask "google-chrome"
-cask "visual-studio-code"
+cask_args appdir: '/Applications'
+
+tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/services'
+tap 'robotsandpencils/made'
+
+brew 'cocoapods'
+brew 'fastlane'
+brew 'firefox'
+brew 'git'
+brew 'rbenv'
+brew 'ruby-build'
+brew 'xcodes'
+brew 'zsh'
+
+cask '1password'
+cask 'asana'
+cask 'autodesk-fusion360'
+cask 'db-browser-for-sqlite'
+cask 'charles'
+cask 'isimulator'
+cask 'iterm2'
+cask 'lulu'
+cask 'notion'
+cask 'obs'
+cask 'paw'
+cask 'signal'
+cask 'slack'
+cask 'sourcetree'
+cask 'spectacle'
+cask 'telegram'
+cask 'toggl-track'
+cask 'visual-studio-code'
+cask 'zoom'
