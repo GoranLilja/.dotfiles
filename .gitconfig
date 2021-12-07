@@ -1,6 +1,19 @@
 [user]
 	name = Göran Lilja
 	email = goran@lilja.tech
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[core]
+	editor = nano
+	excludesfile = /Users/goranlilja/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
 
 # Other possible Git configurations.
 # - Set the default editor (nano, VS Code, etc.)
