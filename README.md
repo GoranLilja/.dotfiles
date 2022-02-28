@@ -35,6 +35,7 @@ git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotf
 # investigate install scripts and bootstrapping tools.
 
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.zshenv ~/.zshenv
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ```
 
